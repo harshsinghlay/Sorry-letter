@@ -7,10 +7,10 @@ const Frame = ({ image, text, onNext }) => {
       <div className="absolute bottom-0 -right-32 w-96 h-96 bg-purple-300 rounded-full blur-3xl opacity-40"></div>
 
       {/* main layout */}
-      <div className="relative max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+      <div className="relative max-w-7xl w-full flex justify-center items-center">
 
         {/* LEFT : IMAGE FRAME */}
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <div className="w-[440px] h-[560px] bg-white/90 backdrop-blur-xl rounded-[3rem] shadow-2xl p-6 flex items-center justify-center">
             <img
               src={image}
@@ -18,7 +18,7 @@ const Frame = ({ image, text, onNext }) => {
               className="w-full h-full object-contain rounded-[2.5rem]"
             />
           </div>
-        </div>
+        </div> */}
 
         {/* RIGHT : TEXT CARD */}
         <div className="bg-white/90 backdrop-blur-xl rounded-[3rem] p-12 shadow-2xl">
